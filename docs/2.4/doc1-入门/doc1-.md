@@ -2,6 +2,8 @@
 # 项目结构
 通过 Dashboard，我们可以创建一个 Hello World 项目作为开始，创建之后的项目有特定的文件夹结构，我们将在这一节熟悉 Cocos Creator 项目的文件夹结构。
 
+项目 assets 目录下的 TypeScript 脚本(.ts 文件) 在创建或修改后激活编辑器，就会被编译成兼容浏览器标准的 ES5 JavaScript 脚本。编译后的脚本存放在项目下的 library（还包括其他资源）目录。
+
 ## 项目文件夹
 ```js
 ├──assets
